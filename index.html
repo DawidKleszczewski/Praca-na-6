@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista Książek</title>
+</head>
+<body>
+    <nav class="navb">
+        <ul>
+            <li>Dodaj Książke</li>
+            <li>Lista Książek</li>
+        </ul>
+    </nav>
+
+    <div>
+        <div class="box">
+            <h1>Lista Książek</h1>
+        </div>
+    </div>
+
+    <section>
+        <div id="grid">
+        </div>
+    </section>
+
+    <footer class="ftr">
+        <div>
+            <input type="text" id="tytol" placeholder="Tytuł książki" class="m-t size">
+        </div>
+        <div>
+            <textarea class="size" id="desc" cols="30" rows="10" placeholder="Tekst książki"></textarea>
+        </div>
+        <div>
+            <button id="wyslij" class="btn" onclick="wyslij()">WYŚLIJ</button>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

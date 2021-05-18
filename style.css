@@ -1,0 +1,62 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+    color: whitesmoke;
+    width: 15%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navb{
+    background-color: rgb(2,152,137);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.box{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+    color: rgb(2,152,137);
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.ksiazka{
+    border: 2px solid rgb(2,152,137);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.butn{
+    float: right;
+}
+.ftr{
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(2,152,137);
+    margin-top: auto;
+    bottom: 0;
+    position: bottom;
+}
+.m-t{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn{
+    width: 20.5rem;
+    height: 2rem;
+}
+.size{
+    width: 20rem;
+}
