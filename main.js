@@ -1,4 +1,4 @@
-let book = [
+let books = [
     {
         title: "Malowany człowiek",
         description:
