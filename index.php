@@ -42,6 +42,8 @@
             </div>
         </section>
 
+        <div class="xd"></div>
+
         <footer class="ftr">
             <form action="ksiazki.php" method="post" class="form">
                 <input
@@ -59,8 +61,10 @@
                 ></textarea>
                 <button type="submit" class="btn">Wyślij</button>
             </form>
+            <form action="del.php" method="post" class="form">
+                <input type="text" name="delete" class="size tytul" placeholder="Podaj tytul do usuniecia">
+                <button type="submit" class="btn">Usuń</button>
+            </form>
         </footer>
-
-        <script src=""></script>
     </body>
 </html>

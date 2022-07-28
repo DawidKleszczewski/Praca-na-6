@@ -6,12 +6,10 @@ $conn = mysqli_connect(
     'ksiazki'
 );
 
-$tytul = $_POST['tytul'];
-$desc = $_POST['opis'];
+$delete = $_POST['delete'];
 
-$sql = "INSERT INTO ksiazki VALUES ('','$tytul','$desc')";
+$sql = "DELETE FROM ksiazki WHERE tytul = '$delete'";
 
 mysqli_query($conn,$sql);
-
 header("Location: index.php");
 ?>
