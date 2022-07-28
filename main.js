@@ -13,7 +13,7 @@ let books = [
         description: "Arrakis, zwana Diuną, to jedyne we wszechświecie źródło melanżu – substancji przedłużającej życie, umożliwiającej odbywanie podróży kosmicznych i przewidywanie przyszłości. Z rozkazu Padyszacha Imperatora Szaddama IV rządzący Diuną Harkonnenowie opuszczają swe największe źródło dochodów. Planetę otrzymują w lenno Atrydzi, ich zaciekli wrogowie. Zwycięstwo księcia Leto Atrydy jest jednak pozorne. Przejęcie planety ukartowano. W odpowiedzi na atak połączonych sił Imperium i Harkonnenów dziedzic rodu Atrydów, Paul - końcowe niemal ogniwo planu eugenicznego Bene Gesserit – staje na czele rdzennych mieszkańców Diuny i próbuje zdobyć imperialny tron."
     },
     {
-        title: "Harry Potter i Kamień Filozoficzny",
+        title: "Harry Potter i Kamień Filozoficznyx",
         description: "Harry Potter, sierota i podrzutek, od niemowlęcia wychowywany był przez ciotkę i wuja, którzy traktowali go jak piąte koło u wozu. Pochodzenie chłopca owiane jest tajemnicą; jedyną pamiątką Harry`ego z przeszłości jest zagadkowa blizna na czole. Skąd jednak biorą się niesamowite zjawiska, które towarzyszą nieświadomemu niczego Potterowi? Wszystko zmienia się w dniu jedenastych urodzin chłopca, kiedy dowiaduje się o istnieniu świata, o którym nie miał dotąd pojęcia. Nowe wydanie książki o najsłynniejszym czarodzieju świata różni się od poprzednich nie tylko okładką, ale i wnętrzem – po raz pierwszy na początku każdego tomu pojawi się mapka Hogwartu i okolic, początki rozdziałów ozdobione będą specjalnymi gwiazdkami, a na końcu pierwszego tomu na Czytelników czeka coś zupełnie wyjątkowego – akt personalny J.K. Rowling, z którego można dowiedzieć się, jakie jest ulubione zwierzę czy bohater literacki autorki."
     },
     {
