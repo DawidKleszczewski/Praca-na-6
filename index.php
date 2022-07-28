@@ -36,7 +36,7 @@
                 $query = mysqli_query($conn,$sql);
 
                 while($row = mysqli_fetch_assoc($query)){
-                    echo "<div class='ksiazka'> "."<div>".$row['tytul']."</div>"."<div>".$row['opis']."</div>"."</div>";
+                    echo "<div class='ksiazka'> "."<h3>".$row['tytul']."</h3>"."<div>".$row['opis']."</div>"."</div>";
                 };
                 ?>
             </div>
