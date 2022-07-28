@@ -36,8 +36,8 @@
                 $query = mysqli_query($conn,$sql);
 
                 while($row = mysqli_fetch_assoc($query)){
-                    echo $row['tytul'].'<br>'.$row['opis'].'<br>';
-                }
+                    echo "<div class='ksiazka'> "."<div>".$row['tytul']."</div>"."<div>".$row['opis']."</div>"."</div>";
+                };
                 ?>
             </div>
         </section>
